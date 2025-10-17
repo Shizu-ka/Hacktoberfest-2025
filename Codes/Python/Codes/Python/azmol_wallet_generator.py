@@ -1,0 +1,1 @@
+print("Azmol’s Wallet Generator 💸")
