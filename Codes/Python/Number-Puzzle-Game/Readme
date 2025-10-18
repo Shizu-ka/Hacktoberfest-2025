@@ -1,0 +1,121 @@
+# 🧩 Number Puzzle Game
+
+A lightweight, console-based **Number Puzzle Game** implemented in Python.  
+The objective is to arrange the numbers **1–8** in ascending order by sliding tiles into the empty space.
+
+---
+
+## 📖 Overview
+
+This project is a simple implementation of the classic 8-puzzle (3×3 sliding puzzle).  
+It demonstrates basic Python concepts such as loops, lists, conditionals, and user interaction.
+
+The puzzle starts in a randomized configuration, and the player can move the empty space using simple commands until all tiles are correctly arranged.
+
+---
+
+## 🎯 Objective
+
+Arrange the numbers to achieve the following order:
+
+1 2 3
+4 5 6
+7 8
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Requirements
+
+- Python **3.8** or higher  
+- Works on **Windows**, **macOS**, and **Linux**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/Number-Puzzle-Game.git
+cd Number-Puzzle-Game
+2. Run the Game
+bash
+Copy code
+python Puzzle_game.py
+3. Play
+Use the following commands to move the blank space:
+
+css
+Copy code
+up
+down
+left
+right
+Type quit to exit the game.
+
+🧠 Game Logic
+The game board is represented as a 3×3 list of lists.
+
+The blank space is represented by 0.
+
+A random shuffle generates the initial layout.
+
+The player moves the blank space using direction commands.
+
+The game checks if the current state matches the solved configuration.
+
+🧩 Example Gameplay
+sql
+Copy code
+🧩 Arrange 1–8 in order using up/down/left/right.
+
+1 3
+4 2 5
+7 8 6
+
+Move (up/down/left/right or 'quit'): up
+📁 Project Structure
+bash
+Copy code
+Number-Puzzle-Game/
+│
+├── Puzzle_game.py     # Main game script
+└── README.md          # Project documentation
+✨ Features
+✅ Interactive command-line gameplay
+
+✅ Randomized puzzle generation
+
+✅ Win condition detection
+
+✅ Lightweight and easy to understand
+
+🔮 Future Enhancements
+Support for arrow key controls
+
+Add a Tkinter GUI version
+
+Implement an AI solver for demonstration
+
+Option to select puzzle size (3×3, 4×4, etc.)
+
+🤝 Contributing
+Contributions are welcome!
+To contribute:
+
+Fork this repository
+
+Create a new branch (feature/new-feature)
+
+Commit your changes
+
+Submit a pull request
+
+🧾 License
+This project is licensed under the MIT License.
+
+👩‍💻 Author
+Srishti Kumari
+B.Tech CSE (DATA SCIENCE), Haldia Institute of Technology
